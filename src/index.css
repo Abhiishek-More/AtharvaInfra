@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+.EMail {
+  color: darkorange;
+}
+
+.navbar {
+  box-shadow: 1px 10px 30px -10px rgba(0,0,0,0.5);
+}
+
+.span {
+  color: black;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: darkorange !important;
+}
+
+.span {
+  color: black;
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover {
+  color: darkorange !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand{
+    font-size: 1.5rem imp !important;
+  }
+
+  .menu_active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+/*======================================================================
+#Landing page
+======================================================================*/
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 170px;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+.brand-name {
+  color: darkorange;
+}
+
+.h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+.btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 10px;  /*top right bottom left*/
+  border-radius: 50px;
+  transition: 0.5s;
+  color: darkorange;
+  border: 2px solid darkorange;
+  text-decoration: none;
+}
+.btn-get-started:hover {
+  background: darkorange;
+  color: #fff;
+}
+
+.btn-card {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: darkorange;
+  border: 2px solid darkorange;
+  text-decoration: none;
+}
+
+.btn-card:hover {
+  background: darkorange;
+  color: #fff;
+}
+
+.header-img {
+  text-align: top;
+  padding: 0px 0px 0px 100px;
+}
+
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.contact_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50vh;  
+}
+
+/*====================================================CARD===========================================*/
+#header h5 {
+  text-align: center;
+}
+
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.background{
+  background-image: url("../src/Images/Background.jpg");
+}
